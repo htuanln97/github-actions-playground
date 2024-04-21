@@ -6,9 +6,9 @@ github-actions-playground
     ├───.github
     │   └───workflows
     ├───src
-    │   ├───main
-    │   │   └───java
-    │   └───test
-    │       └───java
-    │           └───tests
+        ├───main
+        │   └───java
+        └───test
+            └───java
+               └───tests
 ```
