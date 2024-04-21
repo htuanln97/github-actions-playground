@@ -7,5 +7,5 @@ jobs:
     runs-on:  ubuntu-latest
     steps:
       - name: Get date
-        run:  echo "TODAY=$(date+%d-%m-%y)" >> $GITHUB_ENV
+        run:  echo "TODAY=$(date +%d-%m-%y)" >> $GITHUB_ENV
       - run:  echo Hello world 🎉, today is $TODAY
