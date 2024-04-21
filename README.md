@@ -5,15 +5,10 @@
 github-actions-playground
     ├───.github
     │   └───workflows
-    ├───.settings
     ├───src
     │   ├───main
     │   │   └───java
     │   └───test
     │       └───java
     │           └───tests
-    └───target
-        ├───classes
-        └───test-classes
-            └───tests
 ```
