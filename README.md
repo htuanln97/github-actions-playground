@@ -1,6 +1,7 @@
 # github-actions-playground
 ## This repository is designed for learning GitHub Actions ^^
 ## Structure
+```bash
 github-actions-playground
     ├───.github
     │   └───workflows
@@ -15,3 +16,4 @@ github-actions-playground
         ├───classes
         └───test-classes
             └───tests
+```
