@@ -13,11 +13,16 @@ public class UnitTest {
 	}
 	
 	@Test
-	public void unitTest() {
+	public void getAnItemInAnArrayByIndexUnitTest() {
 		String[] arr =  {"J", "A", "V", "A", " ", "O", "O", "P"};
 		String result = getAnItemInAnArrayByIndex(arr, 0);
 		// Valid input
 		assertEquals("J", result);
+	}
+	
+	@Test
+	public void getAnItemInAnArrayByIndexUnitTestNegavetiveCase() {
+		String[] arr =  {"J", "A", "V", "A", " ", "O", "O", "P"};
 		// Invalid input
 		 IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> {
 		        getAnItemInAnArrayByIndex(arr, -1);
